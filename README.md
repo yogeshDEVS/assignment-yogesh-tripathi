@@ -70,8 +70,7 @@ Request Body:
 }
 ## User Registration
 
-**Endpoint:** `POST /api/register`
-
+**Endpoint:** POST /api/register
 Register a new user.
 
 Request Body:
