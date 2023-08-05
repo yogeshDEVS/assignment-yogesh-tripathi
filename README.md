@@ -59,7 +59,7 @@ Make sure you have the following software installed:
 Register a new user.
 
 Request Body:
-```json
+json
 {
   "username": "example_user",
   "email": "user@example.com",
