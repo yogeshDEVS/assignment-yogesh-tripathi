@@ -68,7 +68,7 @@ Make sure you have the following software installed:
   "gender": "male"
 }
 
-Error Response: 
+**Error Response:** 
 {
   "status": "error",
   "code": "INVALID_REQUEST",
