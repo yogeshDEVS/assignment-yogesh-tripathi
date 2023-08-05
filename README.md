@@ -199,8 +199,8 @@ Error Response:
   "message": "The provided key does not exist in the database."
 }
 
-Contributing:
+## Contributing:
 Contributions are welcome! Please fork the repository and create a pull request.
 
-License:
+## License:
 This project is licensed under the MIT License.
