@@ -11,8 +11,7 @@ This project implements a backend system with RESTful APIs for user registration
   - [Installation](#installation)
   - [Usage](#usage)
 - [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Frameworks and Technologies
 
@@ -201,8 +200,12 @@ Success Response:
   "message": "The provided key does not exist in the database."
 }
 
-## Contributing:
-Contributions are welcome! Please fork the repository and create a pull request.
+## Contributing
 
-## License:
-This project is licensed under the MIT License.
+Contributions are welcome! Please read our [Contribution Guidelines](link_to_contributing_guidelines) before submitting a pull request.
+
+
+## License
+
+This project is licensed under the [MIT License](link_to_license_file).
+
