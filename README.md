@@ -183,7 +183,7 @@ Error Response:
   "code": "KEY_NOT_FOUND",
   "message": "The provided key does not exist in the database."
 }
-Delete Data
+'Delete Data'
 Endpoint: DELETE /api/data/<KEY>
 
 Request Headers:
@@ -194,7 +194,7 @@ Success Response:
   "status": "success",
   "message": "Data deleted successfully."
 }
-Error Response: 
+'Error Response': 
 {
   "status": "error",
   "code": "KEY_NOT_FOUND",
