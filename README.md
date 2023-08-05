@@ -130,6 +130,8 @@ Store a key-value pair in the database.
 Request Headers:
 
 Authorization: Bearer <ACCESS_TOKEN>
+
+Request Body: Bearer <ACCESS_TOKEN>
 Request Body:
 {
   "key": "unique_key",
