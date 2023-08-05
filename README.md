@@ -68,8 +68,9 @@ Make sure you have the following software installed:
   "gender": "male"
 }
 
-'Error Response':
+### Error Response
 
+```json
 {
   "status": "error",
   "code": "INVALID_REQUEST",
