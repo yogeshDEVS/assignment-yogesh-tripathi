@@ -36,7 +36,7 @@ The backend interacts with an SQL database. The schema includes the following ta
 
 Make sure you have the following software installed:
 
-- Node.js ([Download](https://nodejs.org/))
+- Node.js (https://nodejs.org/)
 - npm (Node Package Manager)
 
 ### Installation
@@ -52,12 +52,13 @@ Make sure you have the following software installed:
 
 ## API Documentation
 
-**User Registration**
+### User Registration
 
-- **Endpoint:** `POST /api/register`
-- **Description:** Register a new user.
+**Endpoint:** `POST /api/register`
 
-**Request Body:**
+Register a new user.
+
+Request Body:
 ```json
 {
   "username": "example_user",
@@ -67,10 +68,36 @@ Make sure you have the following software installed:
   "age": 30,
   "gender": "male"
 }
+## User Registration
 
-### Error Response
+**Endpoint:** `POST /api/register`
 
+Register a new user.
+
+Request Body:
 ```json
+{
+  "username": "example_user",
+  "email": "user@example.com",
+  "password": "secure_password123",
+  "full_name": "John Doe",
+  "age": 30,
+  "gender": "male"
+}
+Success Response:
+{
+  "status": "success",
+  "message": "User successfully registered!",
+  "data": {
+    "user_id": "12345",
+    "username": "example_user",
+    "email": "user@example.com",
+    "full_name": "John Doe",
+    "age": 30,
+    "gender": "male"
+  }
+}
+Error Response: 
 {
   "status": "error",
   "code": "INVALID_REQUEST",
